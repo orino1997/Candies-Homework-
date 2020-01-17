@@ -22,7 +22,6 @@ public class SweetBox implements SweetBoxActions {
 
     @Override
     public void removeLastCandy() {
-        if(currentBox.isEmpty())
         currentBox.remove(currentBox.size() - 1);
     }
 
